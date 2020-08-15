@@ -12,13 +12,29 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
       name: 'Typescripting simplified',
       repo: 'https://github.com/ayhanyildiz/typescripting',
+      logo: '/_media/avatar2.png',
+      themeColor: '#cbb154',
+      markdown: {
+        smartypants: true
+      },
       loadNavbar: true,
       coverpage: true,
-      homepage: 'main.md'
+      homepage: 'main.md',
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Type to search',
+        noData: 'hey I am trying to catch up okay!',
+        depth: 6
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-typescript.min.js"></script>
 </body>
 </html>
