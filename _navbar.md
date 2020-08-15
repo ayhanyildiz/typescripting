@@ -1,3 +1,4 @@
-* [Home](/)
-   * [Another Page](second.md)
+* [Cover](/)
+* [Home](main.md)
+   * [Second Page](second.md)
    * [Third Page](third.md)

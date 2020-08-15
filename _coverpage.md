@@ -11,5 +11,5 @@
 
 
 [Created With Docsify](https://github.com/docsifyjs/docsify/) 
-[Get Started](README.md)
+[Get Started](/)
 [Typescripting - Github](https://github.com/ayhanyildiz/typescripting/)
