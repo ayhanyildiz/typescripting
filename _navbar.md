@@ -1,5 +1,5 @@
 * [Cover](/)
 * [Home](main.md)
-   * [Second Page](second.md)
+   * [Markdown Cheatsheet](markdown-cheatsheet.md)
    * [Third Page](third.md)
    * [3.1]
