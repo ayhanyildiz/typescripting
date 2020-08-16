@@ -1,3 +1,6 @@
 - [Markdown Cheatsheet](markdown-cheatsheet.md)
 - [Typescript Simplified](typescript.md)
+- [Emoji](emoji.md)
 - [Third Page](third.md)
+- **Links**
+- [![](https://icongr.am/entypo/uninstall.svg?size=32&color=38a130 'Goes No Where Icon')Sample Link](/ ':disabled goes nowhere title')

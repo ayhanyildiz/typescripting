@@ -7,41 +7,41 @@
 ## Headers
 <!-- tabs:start -->
 #### ** Headers **
-1. `# This is an <h1> tag`
-1. `## This is an <h2> tag`
-1. `### This is an <h3> tag`
-1. `### This is an <h4> tag`
-1. `### This is an <h5> tag`
-1. `###### This is an <h6> tag`
+1. `# <h1> tag`
+1. `## <h2> tag`
+1. `### <h3> tag`
+1. `#### <h4> tag`
+1. `##### <h5> tag`
+1. `###### <h6> tag`
 #### ** Preview **
-# This is an `<h1>` tag {docsify-ignore}
-## This is an `<h2>` tag {docsify-ignore}
-### This is an `<h3>` tag {docsify-ignore}  
-### This is an `<h4>` tag {docsify-ignore}  
-### This is an `<h5>` tag {docsify-ignore}  
-###### This is an `<h6>` tag {docsify-ignore}  
+# `<h1>` tag {docsify-ignore}
+## `<h2>` tag {docsify-ignore}
+### `<h3>` tag {docsify-ignore}
+#### `<h4>` tag {docsify-ignore}
+##### `<h5>` tag {docsify-ignore}
+###### `<h6>` tag {docsify-ignore}
 <!-- tabs:end -->
 
 ## Emphasis
 <!-- tabs:start -->
 #### ** Bold / Italic / Strikethrough **
-1. `*This is italic*`
-1. `_This is also italic_`
-1. `**This is bold**`
-1. `__This is also bold__`
-1. `**_This this is bold and italic_**`
-1. `***This this is bold and italic***`
-1. `___This this is bold and italic___`
-1. `~~This will be Strikethrough~~`
+1. `*italic*`
+1. `_also italic_`
+1. `**is bold**`
+1. `__also bold__`
+1. `**_bold and italic_**`
+1. `***also bold and italic***`
+1. `___also bold and italic___`
+1. `~~strikethrough~~`
 #### ** Preview **
-1. *This is italic*
-1. _This is also italic_
-1. **This is bold***
-1. __This is also bold__
-1. **_This this is bold and italic_**
-1. ***This this is bold and italic***
-1. ___This this is bold and italic___
-1. ~~This will be Strikethrough~~
+1. *italic*
+1. _also italic_
+1. **is bold**
+1. __also bold__
+1. **_bold and italic_**
+1. ***also bold and italic***
+1. ___also bold and italic___
+1. ~~strikethrough~~
 <!-- tabs:end -->
 
 ## Images
@@ -99,6 +99,10 @@ Markdown | Less | Pretty
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 
+?> Information
+
+!> Warning
+
 s = "Python syntax highlighting"
 print s
 
@@ -127,3 +131,4 @@ print s
 - Abc
 
 </details>
+
