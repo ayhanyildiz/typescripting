@@ -1,3 +1,3 @@
 # Third Page
 
-[Home](main.md)
+[Home](README.md)

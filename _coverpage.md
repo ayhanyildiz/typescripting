@@ -1,5 +1,5 @@
 
-![logo](_media/avatar2.png "zoomable")
+![logo](_media/avatar.png)
 
 # Typescript-ing <small>3.9</small>
 
@@ -10,6 +10,6 @@
 - Intended for Javascript developers
  😁👍(╯°□°）╯︵ ┻━┻) 
 
+[Get Started](README.md)
 [Created With Docsify](https://github.com/docsifyjs/docsify/) 
-[Get Started](main.md)
 [Typescripting - Github](https://github.com/ayhanyildiz/typescripting/)

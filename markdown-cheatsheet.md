@@ -1,41 +1,96 @@
+[avatar]: /_media/ayhanyildiz.png ':no-zoom :size=240'
+
 # Markdown Cheatsheet
 
-[Home](main.md)
+[Home](README.md)
 
-# Headers
+## Headers
+<!-- tabs:start -->
+#### ** Headers **
+1. `# This is an <h1> tag`
+1. `## This is an <h2> tag`
+1. `### This is an <h3> tag`
+1. `### This is an <h4> tag`
+1. `### This is an <h5> tag`
+1. `###### This is an <h6> tag`
+#### ** Preview **
+# This is an `<h1>` tag {docsify-ignore}
+## This is an `<h2>` tag {docsify-ignore}
+### This is an `<h3>` tag {docsify-ignore}  
+### This is an `<h4>` tag {docsify-ignore}  
+### This is an `<h5>` tag {docsify-ignore}  
+###### This is an `<h6>` tag {docsify-ignore}  
+<!-- tabs:end -->
 
-    # This is an <h1> tag
-    ## This is an <h2> tag
-    ### This is an <h3> tag
-    ###### This is an <h6> tag
+## Emphasis
+<!-- tabs:start -->
+#### ** Bold / Italic / Strikethrough **
+1. `*This is italic*`
+1. `_This is also italic_`
+1. `**This is bold**`
+1. `__This is also bold__`
+1. `**_This this is bold and italic_**`
+1. `***This this is bold and italic***`
+1. `___This this is bold and italic___`
+1. `~~This will be Strikethrough~~`
+#### ** Preview **
+1. *This is italic*
+1. _This is also italic_
+1. **This is bold***
+1. __This is also bold__
+1. **_This this is bold and italic_**
+1. ***This this is bold and italic***
+1. ___This this is bold and italic___
+1. ~~This will be Strikethrough~~
+<!-- tabs:end -->
 
-# Emphasis
+## Images
+<!-- tabs:start -->
+#### ** Image Link **
+#### Image Link {docsify-ignore}
+1. **With Reference:** `![][avatar]`
+  __Reference:__ `[avatar]: /_media/ayhanyildiz.png`    
+1. **With Path** `![](/_media/ayhanyildiz.png)`
+1. **With Title** `![](/_media/ayhanyildiz.png 'Ayhan Yildiz')`
+#### ** Preview **
+1. ![][avatar] 
+1. ![](/_media/ayhanyildiz.png ':size=240')
+1. ![](/_media/ayhanyildiz.png 'My Avatar :size=240')
+<!-- tabs:end -->
+<!-- tabs:start -->
+#### ** Image Zoom & resize **
+🛠️ **Built With Docsify Zoom Image**
+#### Image Link {docsify-ignore}
+1. **Zoom & Resize** `![](/_media/ayhanyildiz.png ':size=128')`   
+1. **Disable Zoom** `![](/_media/ayhanyildiz.png ':size=128 :no-zoom')`
+#### ** Preview **
+1. ![](/_media/ayhanyildiz.png ':size=128')
+1. ![](/_media/ayhanyildiz.png ':size=128 :no-zoom')
+<!-- tabs:end -->
 
-    *This text will be italic*
-*This text will be italic*
+## Code Highlighting
+<!-- tabs:start -->
+#### ** Code **
+    \```typescript
 
-    _This will also be italic_
-_This will also be italic_
-
-    **This text will be bold**
-**This text will be bold**
+    const x: string = 'blah blah blah';
     
-    __This will also be bold__
-__This will also be bold__
+    function xFnc(param: number) {
+        return param;
+    }
 
-# Images
-    ![Monster Logo](/_media/monster.png)
-![Monster Logo](/_media/monster.png)
-![Monster Logo](/_media/pr-04.png ':size=100')
+    ```
+#### ** Preview **
+```typescript
+const x: string = 'blah blah blah';
 
-
-```javascript
-const x = 'blaah';
-
-function x(param: number) {
+function xFnc(param: number) {
     return param;
 }
 ```
+<!-- tabs:end -->
+
+
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
