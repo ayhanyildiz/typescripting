@@ -199,8 +199,8 @@ Col default align | Col 2 to Left | Col 3 to Center  | Col 4 to right
 
 ## HTML? WTF!
 <!-- tabs:start -->
+#### ** HTML **
 🛠️ **HTML works with Docsify**
-#### HTML? Yeah feel free to use it! {docsify-ignore}
 ```html
 <details>
     <summary>Click to expand</summary>
