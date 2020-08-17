@@ -1,5 +1,5 @@
-- [Markdown Cheatsheet](markdown-cheatsheet.md)
 - [Typescript Simplified](typescript.md)
+- [Markdown Cheatsheet](markdown-cheatsheet.md)
 - [Emoji](emoji.md)
 - [Third Page](third.md)
 - **Links**

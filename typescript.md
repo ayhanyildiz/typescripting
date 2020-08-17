@@ -1,14 +1,6 @@
-## Home Page
+## Home Page {docsify-ignore}
 [Home](README.md)
 # Typescript
-
-* #101 Types
-
-# Right
-Smarty Pants "-here -- we --- go"
-* Getting started
- * deeper
- - wow
- 
+_starting_
 
 Last Updated: {docsify-updated}  
