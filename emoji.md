@@ -1,4 +1,4 @@
-## Emojis I use {docsify-ignore}
+## Emojis I use <!-- {docsify-ignore} -->
 icon | code
 --- | ---
 :grinning: | `:grinning:`

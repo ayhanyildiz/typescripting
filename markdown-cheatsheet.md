@@ -33,12 +33,12 @@ function xFnc(param: number) {
 1. `##### <h5> tag`
 1. `###### <h6> tag`
 #### ** Preview **
-# `<h1>` tag {docsify-ignore}
-## `<h2>` tag {docsify-ignore}
-### `<h3>` tag {docsify-ignore}
-#### `<h4>` tag {docsify-ignore}
-##### `<h5>` tag {docsify-ignore}
-###### `<h6>` tag {docsify-ignore}
+# `<h1>` tag <!-- {docsify-ignore} -->
+## `<h2>` tag <!-- {docsify-ignore} -->
+### `<h3>` tag <!-- {docsify-ignore} -->
+#### `<h4>` tag <!-- {docsify-ignore} -->
+##### `<h5>` tag <!-- {docsify-ignore} -->
+###### `<h6>` tag <!-- {docsify-ignore} -->
 <!-- tabs:end -->
 
 ## Emphasis
@@ -80,7 +80,7 @@ function xFnc(param: number) {
 ## Images
 <!-- tabs:start -->
 #### ** Image Link **
-#### Image & Link {docsify-ignore}
+#### Image & Link <!-- {docsify-ignore} -->
 1. **Image with Reference:** `![][avatar]`
     > __Reference:__ `[avatar]: /_media/ayhanyildiz.png`    
 1. **With Path** `![](/_media/ayhanyildiz.png)`
@@ -112,13 +112,13 @@ function xFnc(param: number) {
   ```
 <!-- tabs:start -->
 #### ** Tab 1 **
-  #### Tab 1 {docsify-ignore}
+  #### Tab 1 <!-- {docsify-ignore} -->
 #### ** Tab 2 **
-  #### Tab 2 {docsify-ignore}
+  #### Tab 2 <!-- {docsify-ignore} -->
 <!-- tabs:end -->
   ```
 #### ** Tab 2 **
-    #### Tab 2 {docsify-ignore}
+    #### Tab 2 <!-- {docsify-ignore} -->
 <!-- tabs:end -->
 
 ## List
@@ -150,7 +150,7 @@ function xFnc(param: number) {
 
 <!-- tabs:start -->
 #### ** Unordered List **
-#### -*+ can bu used interchangeably but why not just stick with one! {docsify-ignore}
+#### -*+ can bu used interchangeably but why not just stick with one! <!-- {docsify-ignore} -->
 ```markdown
 - First 
 * Second 
